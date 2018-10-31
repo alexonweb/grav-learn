@@ -4,9 +4,12 @@ taxonomy:
     category: docs
 ---
 
-Grav это ***быстрая**, **простая** и **гибкая** веб-платформа основанная на файлах (falt-file). Не требует установки. Достаточно распоковать ZIP-архив, и всё готово к запуску. Не смотря на то, что Grav схож с другими CMS платформаими с фаловой базой данных (falt-file), он имеет другую архитектуру и философия, чем большинство.
+Grav это ***быстрая**, **простая** и **гибкая** веб-платформа основанная на файлах (falt-file). Не требует установки. Достаточно распаковать ZIP-архив, и всё готово к запуску. Не смотря на то, что Grav схож с другими CMS платформами с файловой базой данных (falt-file), он имеет другую архитектуру и философия, чем большинство.
 
-The name **Grav** is just a shortened version of the word **Gravity**. The shared namespace of our platform and a movie starring Sandra Bullock is pure coincidence! More importantly, gravity is also a fundamental physical principle that describes the forces of attraction between objects. Frankly, the name was chosen as a temporary "codename" for the project, and it just stuck.
+Название **Grav** — это просто сокращение от слова **«Gravity»**. Общее пространство имен (namespace) нашей платформы и фильм с участием Сандры Баллок — это чистое совпадение! Что еще более важно, гравитация также является фундаментальным физическим принципом, который описывает силы притяжения между объектами. Честно говоря, имя было выбрано как временное «кодовое имя» для проекта, и оно привязалось .
+
+
+
 
 The underlying architecture of Grav is built using well established and _best-in-class_ technologies. This is to ensure that Grav is simple to use and easy to extend. Some of these key technologies include:
 
