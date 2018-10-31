@@ -8,37 +8,38 @@ Grav это ***быстрая**, **простая** и **гибкая** веб-�
 
 Название **Grav** — это просто сокращение от слова **«Gravity»**. Общее пространство имен (namespace) нашей платформы и фильм с участием Сандры Баллок — это чистое совпадение! Что еще более важно, гравитация также является фундаментальным физическим принципом, который описывает силы притяжения между объектами. Честно говоря, имя было выбрано как временное «кодовое имя» для проекта, и оно привязалось .
 
+Основополагающая архитектура Grav построена с использованием хорошо признанных и _передовых_ технологий. Это делается для того, чтобы Grav был прост в использовании и легко расширялся. Некоторые из этих ключевых технологий включают:
 
+* [Twig Templating](http://twig.sensiolabs.org/): для мощного управления пользовательским интерфейсом
+* [Markdown](http://en.wikipedia.org/wiki/Markdown): для легкого создания контента
+* [YAML](http://yaml.org): для простой конфигурации
+* [Parsedown](http://parsedown.org/): для быстрой поддержки Markdown и Markdown Extra
+* [Doctrine Cache](http://docs.doctrine-project.org/en/latest/reference/caching.html): для производительности
+* [Pimple Dependency Injection Container](http://pimple.sensiolabs.org/): для расширяемости и удобства сопровождения
+* [Symfony Event Dispatcher](http://symfony.com/doc/current/components/event_dispatcher/introduction.html): для обработки событий плагинов
+* [Symfony Console](http://symfony.com/doc/current/components/console/introduction.html): для интерфейса CLI
+* [Gregwar Image Library](https://github.com/Gregwar/Image): для динамической обработки изображений
 
+## Место Grav во Вселенной
 
-The underlying architecture of Grav is built using well established and _best-in-class_ technologies. This is to ensure that Grav is simple to use and easy to extend. Some of these key technologies include:
+There are many powerful open source CMS solutions for building complex websites.  Some of the more commonly used ones are [Joomla](http://joomla.org), [WordPress](http://wordpress.org), and [Drupal](http://drupal.org). 
+The downside of these platforms is that they have a steep learning curve associated with them. This requires a significant amount of your time - and this may be the time that you do not have.
 
-* [Twig Templating](http://twig.sensiolabs.org/): for powerful control of the user interface
-* [Markdown](http://en.wikipedia.org/wiki/Markdown): for easy content creation
-* [YAML](http://yaml.org): for simple configuration
-* [Parsedown](http://parsedown.org/): for fast Markdown and Markdown Extra support
-* [Doctrine Cache](http://docs.doctrine-project.org/en/latest/reference/caching.html): for performance
-* [Pimple Dependency Injection Container](http://pimple.sensiolabs.org/): for extensibility and maintainability
-* [Symfony Event Dispatcher](http://symfony.com/doc/current/components/event_dispatcher/introduction.html): for plugin event handling
-* [Symfony Console](http://symfony.com/doc/current/components/console/introduction.html): for CLI interface
-* [Gregwar Image Library](https://github.com/Gregwar/Image): for dynamic image manipulation
+Существует множество мощных CMS с открытым исходным кодом для создания сложных веб-сайтов. Самые частое используемые — [Joomla] (http://joomla.org), [WordPress] (http://wordpress.org) и [Drupal] (http://drupal.org). Недостаток этих платформ в том, что вам потребуется многому научится для работы с ними. Для этого потребуется много времени, которого у вас может не быть.
 
-## Grav's Place in the Universe
+Эти платформы предоставляют множество функций и вы можете расширить их возможности с помощью большого количества плагинов с открытым исходны кодом и проприетарных плагинов, и тем. Эти расширения и темы зачастую являются самодостаточными, что требует больше знаний и времени для разработчика.
 
-There are many powerful open source CMS solutions for building complex websites.  Some of the more commonly used ones are [Joomla](http://joomla.org), [WordPress](http://wordpress.org), and [Drupal](http://drupal.org). The downside of these platforms is that they have a steep learning curve associated with them. This requires a significant amount of your time - and this may be the time that you do not have.
+В конечном счете, вы часто создаете веб-сайт для которого требуется множество плагинов и расширений от разных поставщиков. Это может сделать архитектуру чрезмерное сложной и будет сложно поддерживать её в долгосрочной перспективе.
 
-These platforms provide a wealth of features and functionality that you can extend with a wide variety of open source and proprietary plug-ins and themes.  These extensions and themes are themselves often feature-packed, requiring more knowledge and time on the part of the developer yet.
+Grav решает эту проблему по-другому. Он фокусируется прежде всего на вашем контенте и превращает вашу структуру контента в управляемый сайт. Grav в основе прост, но благодаря обширным **событиям** (events) вы полностью контролируете каждый шаг рабочего потока Grav.
 
-In the end, you often find yourself creating a website that requires many plugins and extensions from many different vendors. This can make your design overly complicated and difficult to maintain over the long term.
+Это решение позволяет простым плагинам быстро и легко добавлять мощные функции. Использование **Grav** так же способствует быстрой среде разработки где процесс установки занимает считанные секунды, включая простой способ создания контента с минимальным обучением. Всё это способствует сделать Grav дружественным для дизайнера, разработчика и для конечного пользователя.
 
-Grav tackles the problem differently.  It focuses primarily on your content and turns your content structure into a navigable site.  The underpinnings of Grav are simple, yet via extensive **events**, you have complete control over every step in the Grav workflow.
+Чтобы запустить простой сайт требуются минимальные знания в веб-разработке. Если вы копнете поглубже, вы обнаружите, что мало с чем Grav не сможет справиться. 
 
-This solution allows simple plugins to quickly and easily add powerful functionality. Using **Grav** also leads to a rapid development environment with an installation process that takes seconds, including a straightforward content creation method with a minimal learning curve. All of this contributes to making Grav friendly to the designer, the developer, and the end user.
+##### Логотип Grav и информация для прессы
 
-To get a basic site up-and-running requires minimal Web development experience. If you dig a little deeper, you will discover that there is very little Grav cannot accomplish.
+Вы сможете найти исчерпывающую информацию о Grav, включая **логотипы** и **информацию для прессы** на нашем сайте в разделе [media](http://getgrav.org/media).
 
-##### Grav Logos and Press Information
+!!! Самый простой способ навигации по документации это использовать стрелки **влево** и **вправо** (<i class="fa fa-chevron-left"></i> <i class="fa fa-chevron-right"></i>) на каждой странице. Вы можете видеть, как уже прочитанные  страницы отмечаются галочками (<i class="fa fa-check"></i>) на боковой панели.
 
-You can find a summary about Grav, including **Grav logos** and **press information**, on our [media page](http://getgrav.org/media).
-
-!!! The simplest way to navigate the documentation is to use the **Next** and **Previous** arrows (<i class="fa fa-chevron-left"></i> <i class="fa fa-chevron-right"></i>) on each page. You can see your progress represented by the check marks (<i class="fa fa-check"></i>) in the sidebar.
