@@ -1,5 +1,5 @@
 ---
-title: Basics
+title: Основы
 taxonomy:
     category: docs
 ---
