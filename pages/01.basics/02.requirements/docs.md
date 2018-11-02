@@ -1,5 +1,5 @@
 ---
-title: Requirements
+title: Требования
 taxonomy:
     category: docs
 ---
