@@ -16,14 +16,14 @@
 
 Здесь я отмечаю на каком этапе находится перевод
 
-### 1. Basics
-#### What is Grav?
-#### Requirements
-#### Installation
-#### Basic Tutorial
-#### Configuration
-#### Folder Structure
-#### Getting Help
+1. Basics
+    - What is Grav?
+    - Requirements
+    - Installation
+    - Basic Tutorial
+    - Configuration
+    - Folder Structure
+    - Getting Help
 ### 2. Content
 #### Pages
 #### Headers / Frontmatter
