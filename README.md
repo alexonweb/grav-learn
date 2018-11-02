@@ -17,7 +17,7 @@
 Здесь я отмечаю на каком этапе находится перевод
 
 - [ ] 1. Basics
-    - [ ] What is Grav?
+    - [x] What is Grav?
     - Requirements
     - Installation
     - Basic Tutorial
