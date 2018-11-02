@@ -72,84 +72,84 @@
     - [ ] Extending
         - [ ] Admin Event Hooks
     - [ ] FAQ
-### 7. Forms
-#### Blueprints
-#### Reference: Blueprint Form Fields
-#### Example: Plugin Blueprint
-#### Example: Plugin Configuration
-#### Example: Page Blueprints
-#### Example: Config Blueprints
-#### How to: Add a file upload
-#### Advanced Blueprint Features
-#### Frontend Forms
-#### Reference: Form Options
-#### Reference: Form Field Index
-#### Example: Contact Form
-#### Reference: Form Actions
-#### How to: Forms in modular pages
-#### How to: Ajax Submission
-### 8. CLI Console
-#### Grav CLI
-#### Grav CLI Plugin
-#### Grav CLI GPM
-#### Command Line Intro
-#### Scripted Upgrades
-### 9. Advanced
-#### Performance & Caching
-#### Debugging & Logging
-#### Environment Configuration
-#### Multisite Setup
-#### Grav Development
-#### YAML Syntax
-#### Groups and Permissions
-#### Change the site URL
-### 10. Web Servers & Hosting
-#### Web/App Servers
-##### Nginx
-#### Shared Hosting
-##### Rochen
-##### WireNine
-##### Crucial
-##### SiteGround
-##### Arvixe
-##### Dreamhost
-#### VPS Hosting
-##### DigitalOcean
-##### Linode
-##### RoseHosting
-##### Vultr
-#### PaaS Hosting
-##### Fortrabbit
-##### Heroku
-##### Cloudways
-##### Microsoft Azure
-##### Local Development with ddev
-##### Windows Subsystem for Linux
-### 11. Cookbook
-#### General Recipes
-#### Twig Recipes
-#### Plugin Recipes
-#### Admin Recipes
-#### Tutorials
-#### Build a Blog
-### 12. Troubleshooting
-#### 404 Not Found
-#### Grav Server Error
-#### 500 Internal Server Error
-#### 403 Forbidden
-#### Invalid Security Token
-#### Permissions
-#### Proxy issues
-#### Common Problems
-#### htaccess
-### 13. Migration
-### 14. Security
-#### Overview
-#### Users
-#### Developers
-#### Server-side
-#### Reports
-### 15. Grav System API
-### 16. Hints and Tips
-#### Hints and Tips
-#### Blogging
+- [ ] 7. Forms
+    - [ ] Blueprints
+    - [ ] Reference: Blueprint Form Fields
+    - [ ] Example: Plugin Blueprint
+    - [ ] Example: Plugin Configuration
+    - [ ] Example: Page Blueprints
+    - [ ] Example: Config Blueprints
+    - [ ] How to: Add a file upload
+    - [ ] Advanced Blueprint Features
+    - [ ] Frontend Forms
+    - [ ] Reference: Form Options
+    - [ ] Reference: Form Field Index
+    - [ ] Example: Contact Form
+    - [ ] Reference: Form Actions
+    - [ ] How to: Forms in modular pages
+    - [ ] How to: Ajax Submission
+- [ ] 8. CLI Console
+    - [ ] Grav CLI
+    - [ ] Grav CLI Plugin
+    - [ ] Grav CLI GPM
+    - [ ] Command Line Intro
+    - [ ] Scripted Upgrades
+- [ ] 9. Advanced
+    - [ ] Performance & Caching
+    - [ ] Debugging & Logging
+    - [ ] Environment Configuration
+    - [ ] Multisite Setup
+    - [ ] Grav Development
+    - [ ] YAML Syntax
+    - [ ] Groups and Permissions
+    - [ ] Change the site URL
+- [ ] 10. Web Servers & Hosting
+    - [ ] Web/App Servers
+        - [ ] Nginx
+    - [ ] Shared Hosting
+        - [ ] Rochen
+        - [ ] WireNine
+        - [ ] Crucial
+        - [ ] SiteGround
+        - [ ] Arvixe
+        - [ ] Dreamhost
+    - [ ] VPS Hosting
+        - [ ] DigitalOcean
+        - [ ] Linode
+        - [ ] RoseHosting
+        - [ ] Vultr
+    - [ ] PaaS Hosting
+        - [ ] Fortrabbit
+        - [ ] Heroku
+        - [ ] Cloudways
+        - [ ] Microsoft Azure
+    - [ ] Local Development with ddev
+    - [ ] Windows Subsystem for Linux
+- [ ] 11. Cookbook
+    - [ ] General Recipes
+    - [ ] Twig Recipes
+    - [ ] Plugin Recipes
+    - [ ] Admin Recipes
+    - [ ] Tutorials
+        - [ ] Build a Blog
+- [ ] 12. Troubleshooting
+    - [ ] 404 Not Found
+    - [ ] Grav Server Error
+    - [ ] 500 Internal Server Error
+    - [ ] 403 Forbidden
+    - [ ] Invalid Security Token
+    - [ ] Permissions
+    - [ ] Proxy issues
+    - [ ] Common Problems
+    - [ ] htaccess
+- [ ] 13. Migration
+- [ ] 14. Security
+    - [ ] Overview
+    - [ ] Users
+    - [ ] Developers
+    - [ ] Server-side
+    - [ ] Reports
+- [ ] 15. Grav System API
+- [ ] 16. Hints and Tips
+    - [ ] Hints and Tips
+        - [ ] Blogging
