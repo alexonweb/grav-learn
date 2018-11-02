@@ -18,60 +18,60 @@
 
 - [ ] 1. Basics
     - [x] What is Grav?
-    - Requirements
-    - Installation
-    - Basic Tutorial
-    - Configuration
-    - Folder Structure
-    - Getting Help
-### 2. Content
-#### Pages
-#### Headers / Frontmatter
-#### Page Collections
-#### Markdown Syntax
-#### Page Linking
-#### Image Linking
-#### Media
-#### Taxonomy
-#### Modular Pages
-#### Routing
-#### Multi-Language
-#### Content Types
-### 3. Typography
-### 4. Themes
-#### Theme Basics
-#### Theme Tutorial
-#### Twig Primer
-#### Twig Filters & Functions
-#### Theme Configuration
-#### Theme Variables
-#### Asset Manager
-#### Customization
-### 5. Plugins
-#### Plugin Basics
-#### Plugin Tutorial
-#### Event Hooks
-#### Grav Lifecycle
-### 6. Administration Panel
-#### Introduction
-#### Dashboard
-#### Configuration (System)
-#### Configuration (Site)
-#### Profile
-#### Pages
-#### Editor (Content)
-#### Editor (Options)
-#### Editor (Advanced)
-#### Plugins
-#### Options
-#### Themes
-#### Security
-### 2-Factor Authentication
-#### Flood Protection
-#### Tools
-#### Extending
-#### Admin Event Hooks
-#### FAQ
+    - [ ] Requirements
+    - [ ] Installation
+    - [ ] Basic Tutorial
+    - [ ] Configuration
+    - [ ] Folder Structure
+    - [ ] Getting Help
+- [ ] 2. Content
+    - [ ] Pages
+    - [ ] Headers / Frontmatter
+    - [ ] Page Collections
+    - [ ] Markdown Syntax
+    - [ ] Page Linking
+    - [ ] Image Linking
+    - [ ] Media
+    - [ ] Taxonomy
+    - [ ] Modular Pages
+    - [ ] Routing
+    - [ ] Multi-Language
+    - [ ] Content Types
+- [ ] 3. Typography
+- [ ] 4. Themes
+    - [ ] Theme Basics
+    - [ ] Theme Tutorial
+    - [ ] Twig Primer
+    - [ ] Twig Filters & Functions
+    - [ ] Theme Configuration
+    - [ ] Theme Variables
+    - [ ] Asset Manager
+    - [ ] Customization
+- [ ] 5. Plugins
+    - [ ] Plugin Basics
+    - [ ] Plugin Tutorial
+    - [ ] Event Hooks
+    - [ ] Grav Lifecycle
+- [ ] 6. Administration Panel
+    - [ ] Introduction
+    - [ ] Dashboard
+        - [ ] Configuration (System)
+        - [ ] Configuration (Site)
+        - [ ] Profile
+    - [ ] Pages
+        - [ ] Editor (Content)
+        - [ ] Editor (Options)
+        - [ ] Editor (Advanced)
+    - [ ] Plugins
+        - [ ] Options
+    - [ ] Themes
+    - [ ] Security
+        - [ ] 2-Factor Authentication
+        - [ ] Flood Protection
+    - [ ] Tools
+    - [ ] Extending
+        - [ ] Admin Event Hooks
+    - [ ] FAQ
 ### 7. Forms
 #### Blueprints
 #### Reference: Blueprint Form Fields
