@@ -4,19 +4,19 @@ taxonomy:
     category: docs
 ---
 
-Grav is intentionally designed with few requirements. You can easily run Grav on your local computer, as well as 99% of all Web hosting providers. If you have a pen handy, jot down the following Grav system requirements:
+Grav специально разработан, чтобы не быть требовательным. Вы запросто можете запустить Grav на вашем компьютере, а так же на 99% веб-хостингах. Если у вас под рукой ручка, запишите системные требования для Grav:
 
-1. Web Server (Apache, Nginx, LiteSpeed, Lightly, IIS, etc.)
-2. PHP 5.6.3 or higher
-3. hmm... that's it really, (but please look at php requirements for a smooth experience)!
+1. Веб-сервер (Apache, Nginx, LiteSpeed, Lightly, IIS и т. Д.)
+2. PHP 5.6.3 или выше
+3. Хм... этого хватит, (но, пожалуйста, посмотрите на требования к PHP чтобы не обламываться)
 
-Grav is built with plain text files for your content. There is no database needed.
+Grav использует обычные текстовые файлы для работы с контентом. Нет необходимости использовать базы данных. 
 
-!! A PHP user cache such as APC, APCu, XCache, Memcached, or Redis is highly recommended for optimal performance. Not to worry though, these are usually already part of your hosting package!
+!! Для оптимальной производительности настоятельно рекомендуется использовать пользовательский кеш PHP, такой как APC, APCu, XCache, Memcached или Redis. Не волнуйтесь, это, как правило, уже входит есть на хостинге!
 
-## Web Servers
+## Веб-серверы
 
-Grav is so simple and versatile that you don't even need a web server to run it. You can run it directly off the built-in `router.php` PHP tool as long as you're running PHP 5.6.3 or later.
+Grav настолько прост и универсален, что вам даже не нужен веб-сервер для его запуска. Вы можете запустить его непосредственно из встроенного инструмента `router.php` PHP, если вы используете PHP 5.6.3 или новее.
 
 This is a useful way to check a Grav install and perform some brief development, but it is **not** recommended for a live site or even for advanced development tasks. We've outlined how in our [Installation guide](../installation#running-grav-with-the-built-in-php-webserver-using-routerphp).
 
@@ -24,38 +24,39 @@ Even though technically you do not need a standalone web server, it is better to
 
 ### Mac
 
-* OS X 10.13 High Sierra already ships with the Apache Web server and PHP 7.2, so job done!
-* [MAMP/MAMP Pro](http://mamp.info) comes with Apache, MySQL and of course PHP. It is a great way to get more control over which version of PHP you are running, setting up virtual hosts, plus other useful features such as automatically handling dynamic DNS.
-* [AMPPS](http://www.ampps.com/downloads) is a software stack from Softaculous enabling Apache, PHP, Perl, Python,.. This includes everything you need (and more) for GRAV development.
+* OS X 10.13 High Sierra уже поставляется с веб-сервером Apache и PHP 7.2, поэтому работа выполнена!
+* [MAMP/MAMP Pro](http://mamp.info) поставляется с Apache, MySQL и, конечно, PHP. Это отличный способ получить больше контроля над версией PHP, которую вы запускаете, настройкой виртуальных хостов и другими полезными функциями, такими как автоматическая обработка динамического DNS.
+* [AMPPS](http://www.ampps.com/downloads) это программный стек от Softaculous, включащий Apache, PHP, Perl, Python, .. Это включает в себя все, что вам нужно (и многое другое) для разработки GRAV.
 
 ### Windows
 
-* [XAMPP](https://www.apachefriends.org/index.html) provides Apache, PHP, and MySQL in one simple package.
+* [Open Server](https://ospanel.io/) это портативная серверная платформа в которой есть всё что вам нужно.
+* [XAMPP](https://www.apachefriends.org/index.html) предоставляет Apache, PHP и MySQL в одном простом пакете.
 * [EasyPHP](http://www.easyphp.org/) provides a personal Web hosting package as well as a more powerful developer version.
-* [MAMP for Windows](http://mamp.info) is a long-time Mac favorite, but now available for Windows.
-* [IIS with PHP](http://php.iis.net/) is a fast way to run PHP on Windows.
-* [AMPPS](http://www.ampps.com/downloads) is a software stack from Softaculous enabling Apache, PHP, Perl, Python,.. This includes everything you need (and more) for GRAV development.
+* [MAMP for Windows](http://mamp.info) долгое время был популярным на MAC, но теперь доступен и на Windows.
+* [IIS with PHP](http://php.iis.net/) это быстрый способ запуска PHP на Windows.
+* [AMPPS](http://www.ampps.com/downloads) это программный стек от Softaculous, включащий Apache, PHP, Perl, Python, .. Это включает в себя все, что вам нужно (и многое другое) для разработки GRAV.
 
 ### Linux
 
-* Many distributions of Linux already come with Apache and PHP built-in. If they're not, the distribution usually provides a package manager through which you can install them without much hassle. More advanced configurations should be investigated with the help of a good search engine.
+* Многие дистрибутивы Linux уже поставляются с встроенным Apache и PHP. Если это не так, дистрибутив обычно предоставляет менеджер пакетов, через который вы можете установить их без особых проблем. Более продвинутые конфигурации поможет иследовать хорошая поисковая система.
 
-### Apache Requirements
+### Требования к Apache
 
-Even though most distributions of Apache come with everything needed, for the sake of completeness, here is a list of required Apache modules:
+Несмотря на то, что большинство дистрибутивов Apache поставляются со всем необходимым, для полноты, вот список необходимых модулей Apache:
 
 * `mod_rewrite`
-* `mod_ssl` (if you wish to run Grav under SSL)
+* `mod_ssl` (если вы хотите запустить Grav с SSL)
 
 You should also ensure you have `AllowOverride All` set in the `<Directory>` and/or `<VirtualHost>` blocks so that the `.htaccess` file processes correctly, and rewrite rules take effect.
 
-### IIS Requirements
+### Требования к IIS
 
 Although IIS is considered a web server ready to run 'out-of-the-box', some changes need to be made.
 
 To get **Grav** running on an IIS server, you need to install **URL Rewrite**. This can be accomplished using **Microsoft Web Platform Installer** from within IIS. You can also install URL Rewrite by going to [iis.net](https://www.iis.net/downloads/microsoft/url-rewrite).
 
-### PHP Requirements
+### Требования к PHP
 
 Most hosting providers and even local LAMP setups have PHP pre-configured with everything you need for Grav to run 'out-of-the-box'. However, some Windows setups, and even Linux distributions local or on VPS (I'm looking at you Debian!) - ship with a very minimal PHP compile. Therefore, you may need to install or enable these PHP modules:
 
