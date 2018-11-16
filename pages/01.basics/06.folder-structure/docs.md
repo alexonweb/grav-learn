@@ -1,10 +1,10 @@
 ---
-title: Folder Structure
+title: Структура папок
 taxonomy:
     category: docs
 ---
 
-Because Grav is a **flat-file based CMS**, meaning no database underpins it, the folder structure of your site is very important.  At the **top level** of your Grav installation the folder structure looks like:
+Поскольку Grav основнна на файлах (falt-file), в смысле нет базы данных поверх, файловая структура вашего сайт очень важна. На **первом уровне** при устновке Grav файловая структура выглядит так:
 
 ```bash
 /assets
@@ -17,11 +17,11 @@ Because Grav is a **flat-file based CMS**, meaning no database underpins it, the
 /vendor
 ```
 
-So let us dig a little deeper into each of these top-level folders and explain what they are for:
+Итак, давайте взгялем поближе на каждый из этих папок и объясним зачем они нужны:
 
 ### /assets
 
-**(v0.9.0+)** The `assets` folder is used by the new asset management system within Grav to store processed `.css` and `.js` files.
+**(версия 0.9.0+)** Папка `assets` folder is used by the new asset management system within Grav to store processed `.css` and `.js` files.
 
 !! This folder should not be used to store any user data, as it is routinely flushed of all data.
 

@@ -1,56 +1,55 @@
 ---
-title: Installation
+title: Установка
 taxonomy:
     category: docs
 ---
 
-Installation of Grav is a trivial process. In fact, there is no real installation. You have **three** options for installing Grav. The first - and simplest - way is to download the **zip** archive, and extract it. The second way is to install with **Composer**. The third way is to clone the source project directly from **GitHub**, and then run an included script command to install needed dependencies:
+Установка Gravc это тривиальный процесс. По факту это не настоящая установка. У вас есть **три** варианта как установить Grav. Первый - самый простой - скачать **zip** архив и распоковать его. Второй варианта - установка с помощью **Composer**. Третий вариант это сделать копию исходного проекта из **GitHub**, и затем запустить встроенный скрипт для установки необходимых зависимостей:
 
-## Check for PHP version
+## Проверьте версию PHP
 
-Grav is incredibly easy to set up and get running. Be sure you have at least PHP version 5.5.9 by going to the terminal and typing:
+Grav невероятно прост в настройке и запуске. Убедитесь, что ваша версия PHP выше 5.5.9, перейдя в терминал и набрав:
 
 ```bash
 $ php -v
 ```
-
-This should report the version and build information. For example:
+В ответ вы получите информацию о версии и сборке. Например:
 
 ```bash
-PHP 5.5.20 (cli) (built: Jan 19 2014 21:32:15)
-Copyright (c) 1997-2013 The PHP Group
-Zend Engine v2.4.0, Copyright (c) 1998-2013 Zend Technologies
+PHP 7.2.7 (cli) (built: Jun 19 2018 23:13:48) ( NTS MSVC15 (Visual C++ 2017) x64 )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
 ```
 
-## Option 1: Install from ZIP package
+## Вариант 1: установить из ZIP-пакета
 
-The easiest way to install Grav is to download the ZIP package and extract it:
+Самый простой способ установить Grav - загрузить ZIP-пакет и извлечь его:
 
-1. Download the latest-and-greatest **[Grav](https://getgrav.org/download/core/grav/latest)** or **[Grav + Admin](https://getgrav.org/download/core/grav-admin/latest)** package.
-2. Extract the ZIP file in the [webroot](https://www.wordnik.com/words/webroot) of your web server, e.g. `~/webroot/grav`
+1. Загрузите самую последнюю версию **[Grav](https://getgrav.org/download/core/grav/latest)** или сборку **[Grav + Панель администрировнания](https://getgrav.org/download/core/grav-admin/latest)**.
+2. Извлеките ZIP-файл в [корневой каталог](https://www.wordnik.com/words/webroot) вашего веб-сервера, например `~/webroot/grav`
 
-!!! There are [Skeleton](https://getgrav.org/downloads/skeletons)-packages available, which include the core Grav system, sample pages, plugins, and configuration. They are a great way to get started; all you have to do is [download the Skeleton](https://getgrav.org/downloads/skeletons)-package you prefer, and follow the steps above.
+!!! Есть [Skeleton](https://getgrav.org/downloads/skeletons)-сборки, которые включают в себя основную систему Grav, образцы страниц, плагины и конфигурацию. Это отличный способ начать работу; все, что вам нужно сделать, это [скачать Skeleton](https://getgrav.org/downloads/skeletons)-сборку, которая подходит вам, и сдедовать инструкциям.
 
 !!!! If you downloaded the ZIP file and then plan to move it to your webroot, please move the **ENTIRE FOLDER** because it contains several hidden files (such as .htaccess) that will not be selected by default. The omission of these hidden files can cause problems when running Grav.
 
 
-## Option 2: Install with composer
+## Вариант 2: установка через Composer
 
-The alternative method is to install Grav with [composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx):
+Альтернативный метод - это установить Grav с [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx):
 
 ```
 $ composer create-project getgrav/grav ~/webroot/grav
 ```
 
-If you want to check out the bleeding edge version of Grav, add `1.x-dev` as an additional parameter:
+Если вы хотите поробовать новейшую версию Grav, добавьте `1.x-dev` в качестве дополнительного параметра:
 
 ```
 $ composer create-project getgrav/grav ~/webroot/grav 1.x-dev
 ```
 
-## Option 3: Install from GitHub
+## Вариант 3: установить через GitHub
 
-Another method is to clone Grav from the GitHub repository, and then run a simple dependency installation script:
+Другой метод - клонировать Grav из репозитория GitHub, а затем запустить простой скрипт установки зависимостей:
 
 1. Clone the Grav repository from [GitHub](https://github.com/getgrav/grav) to a folder in the webroot of your server, e.g. `~/webroot/grav`. Launch a **terminal** or **console** and navigate to the webroot folder:
    ```
@@ -72,9 +71,12 @@ Another method is to clone Grav from the GitHub repository, and then run a simpl
 
    This will automatically **clone** the required dependencies from GitHub directly into this Grav installation.
 
-## Webserver
+## Веб сервер
 
 #### Apache/IIS/Nginx
+
+Использование Grav с веб-сервером, таким как Apache, IIS или Nginx, так же просто, как извлечение Grav в папку под [webroot](https://www.wordnik.com/words/webroot). Все, что требуется для работы, это PHP 5.5.9 или выше, поэтому вы должны убедиться, что ваш экземпляр сервера отвечает этому требованию. Более подробную информацию о требованиях Grav можно найти в главе [требования](../requirements) этого руководства.
+
 
 Using Grav with a web server such as Apache, IIS, or Nginx is as simple as extracting Grav into a folder under the [webroot](https://www.wordnik.com/words/webroot). All it requires to function is PHP 5.5.9 or higher, so you should make sure that your server instance meets that requirement. More information about Grav requirements can be found in the [requirements](../requirements) chapter of this guide.
 
